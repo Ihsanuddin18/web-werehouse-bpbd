@@ -272,7 +272,6 @@
       </div>
     </section>
     <!-- ====== Team End ====== -->
-    <!-- ====== Team End ====== -->
 
    <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
