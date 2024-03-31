@@ -13,12 +13,10 @@ return new class extends Migration
     {
         Schema::create('laporan_terima', function (Blueprint $table) {
             $table->id('id_terima');
-            $table->integer('no_terima');
             $table->string('bantuan_dari');
-            $table->dateTime('tgl_terima');
             $table->string('jenis_terima');
             $table->integer('jumlah_terima');
-            $table->integer('satuan_terima');
+            $table->string('satuan_terima');
             $table->timestamps();
         });
     }

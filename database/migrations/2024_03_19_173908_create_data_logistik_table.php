@@ -13,15 +13,10 @@ return new class extends Migration
     {
         Schema::create('data_logistik', function (Blueprint $table) {
             $table->id('id_logistik');
-            $table->string('no_logistik');
             $table->string('nama_logistik');
-            $table->string('bantuan_dari');
-            $table->dateTime('penerimaan_logistik');
-            $table->dateTime('pengeluaran_logistik')->nullable();
             $table->integer('stok_logistik');
             $table->integer('sisa_logistik');
             $table->string('satuan_logistik');
-            $table->dateTime('expayer')->nullable();
             $table->timestamps();
         });
     }
